@@ -1,19 +1,19 @@
-.pink {
-  color:pink
-}
-
 /* id */
 #greycol {
   color:grey
 }
-.red{
+div ~ div {
     color:red
 }
 
-.green{
-    color:green
+h3 + p:nth-last-child(2){
+    color: green
 }
 
 .yellow{
     color:yellow
+}
+
+h3:first-child{
+  color: pink
 }
